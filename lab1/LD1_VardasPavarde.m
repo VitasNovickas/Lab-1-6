@@ -27,17 +27,17 @@ disp('Matrica A:');
 disp(A);
 
 % 4. Poaibiu atrinkimas pagal schemas a), b), c)
-% a) viena laste - 3 eilute, 2 stulpelis
+% a) 
 a_sel = A(3,2);
 disp('a) A(3,2) =');
 disp(a_sel);
 
-% b) blokas - 2-3 eilutes, 1-2 stulpeliai
+% b) 
 b_sel = A(2:3, 1:2);
 disp('b) A(2:3,1:2) =');
 disp(b_sel);
 
-% c) keturi kampai - 1 ir 3 eilutes, 1 ir 3 stulpeliai
+% c) 
 c_sel = A([1 3], [1 3]);
 disp('c) A([1 3],[1 3]) =');
 disp(c_sel);
